@@ -1,6 +1,6 @@
 import React from "react";
 import { introText } from "../../infos";
-import './Home.css'
+import './home.css'
 
 function Home () {
     return (
