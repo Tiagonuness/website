@@ -7,9 +7,16 @@ const introText = {
         frase1: "Full Stack Developer",
         frase2: "ainda não sei o que colocar"
     }
-}
+};
+
+const perfis = {
+    github: "https://github.com",
+    linkedin: "https://linkedin.com",
+    twitter: "https://twitter.com",
+};
 
 export {
     logoTexto,
-    introText
+    introText,
+    perfis,
 };
