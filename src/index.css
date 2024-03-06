@@ -19,11 +19,3 @@
     height: 100vh;
     background-color: var(--bg-color);
 }
-
-h1 {
-    position: absolute;
-    color: white;
-    font-size: 20px;
-    top: 50%;
-    left: 50%;
-}
