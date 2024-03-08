@@ -12,14 +12,14 @@ function Socializar() {
       <ul>
         {perfis.twitter && (
           <li>
-            <a href={perfis.twitter}>
+            <a href={perfis.twitter} target="_blank">
               <FaTwitter/>
             </a>
           </li>
         )}
         {perfis.github && (
             <li>
-              <a href={perfis.github}>
+              <a href={perfis.github} target="_blank">
                 <FaGithub/>
               </a>
             </li>
@@ -27,7 +27,7 @@ function Socializar() {
         }
         {perfis.linkedin && (
           <li>
-            <a href={perfis.linkedin}>
+            <a href={perfis.linkedin} target="_blank">
               <FaLinkedin/>
             </a>
           </li>
@@ -35,13 +35,14 @@ function Socializar() {
         }
         {perfis.instagram && (
           <li>
-            <a href={perfis.instagram}>
+            <a href={perfis.instagram} target="_blank">
               <FaInstagram/>
             </a>
           </li>
         )
         }
       </ul>
+      <p>Me Siga</p>
     </div>
   )
 }

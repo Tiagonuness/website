@@ -10,9 +10,9 @@ const introText = {
 };
 
 const perfis = {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Tiagonuness",
+    linkedin: "https://linkedin.com/in/tiago-nunes-09905724a/",
+    twitter: "https://twitter.com/tiagonfps",
     instagram: "https://instagram.com/tiagonfps"
 };
 
