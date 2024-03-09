@@ -1,0 +1,23 @@
+.sla {
+    top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbarnome {
+    padding: 5px 15px;
+    margin: 0;
+    border: unset;
+    background: white;
+    font-size: 1.25rem;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    line-height: 2;
+    height: 50px;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.navbarnome:hover {
+    color: white;
+}
