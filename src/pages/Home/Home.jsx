@@ -1,6 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import { introText } from "../../infos";
+import { BsArrowDown } from "react-icons/bs";
 import './home.css'
 
 function Home () {
@@ -16,6 +17,9 @@ function Home () {
                     }}
                 />       
             </h2>
+            <div className="scroll-down-icon">
+                <BsArrowDown />
+            </div>
         </div>
     )
 }
