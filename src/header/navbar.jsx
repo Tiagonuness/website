@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { BsList } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { BsList, BsXLg } from "react-icons/bs";
 import { logoTexto } from "../infos";
 import './navbar.css'
 
@@ -11,22 +10,32 @@ function NavBar() {
         setMenuOpen(!menuOpen);
     };
 
+    const closeMenu = () => {
+        setMenuOpen(false);
+    };
+
     return (
-        <header className="navbar">
+        <header>
             <div>
-                <nav>
-                    <p className="titulo">{logoTexto}</p>
+                <p className="titulo">{logoTexto}</p>
+                <nav className={`navbar ${menuOpen ? 'menu-open' : ''}`}>
                     <div onClick={toggleMenu} className="list">
-                        <BsList/>
+                    {menuOpen ? (
+                            <BsXLg className="close-icon" />
+                        ) : (
+                            <BsList className="menu-icon" />
+                        )}
                     </div>
-                    {menuOpen && (
-                        <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/contact">Contact</a></li>
-                        </ul>
-                    )}
                 </nav>
+                {menuOpen && (
+                    <ul className="sidebar">
+                        <BsXLg onClick={closeMenu} className={`close-icon`}/>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">Sobre</a></li>
+                        <li><a href="/portfolio">Projetos</a></li>
+                        <li><a href="/contact">Contato</a></li>
+                    </ul>
+                )}
             </div>
         </header>
     )
