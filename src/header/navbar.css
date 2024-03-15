@@ -4,6 +4,7 @@
 }
 
 .titulo {
+    top: 0.5px;
     font-size: 1.5em;
     left: 10px;
     margin: .5rem;

@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './pages/home/home';
 import NavBar from './header/navbar';
 import Socializar from './components/socializar/socializar';
+import Sobre from './pages/sobre/sobre';
 import './index.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <NavBar/>
       <Socializar/>
       <Home />
+      <Sobre />
     </div>
   );
 }

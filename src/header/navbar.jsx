@@ -30,8 +30,9 @@ function NavBar() {
                 {menuOpen && (
                     <ul className="sidebar">
                         <BsXLg onClick={closeMenu} className={`close-icon`}/>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/about">Sobre</a></li>
+                        <li><a href="/#home">Home</a></li>
+                        <li><a href="/#sobre">Sobre</a></li>
+                        <li><a href="/skills">Habilidades</a></li>
                         <li><a href="/portfolio">Projetos</a></li>
                         <li><a href="/contact">Contato</a></li>
                     </ul>

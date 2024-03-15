@@ -6,7 +6,7 @@ import './home.css'
 
 function Home () {
     return (
-        <div id="introText" className="introText">
+        <div id="home" className="introText">
             <h1 className="apresentação">{introText.title} <span className="meuNome">{introText.nome}</span></h1>
             <h2 className="animados">
                 <Typewriter
@@ -18,7 +18,7 @@ function Home () {
                 />       
             </h2>
             <div className="scroll-down-icon">
-                <BsArrowDown />
+                <a className="seta" href="#sobre"><BsArrowDown className="teste"/></a>
             </div>
         </div>
     )

@@ -30,13 +30,19 @@
 }
 
 .scroll-down-icon {
-    position: fixed;
     color: rgb(0, 247, 255);
+    position: fixed;
     font-size: 35px;
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
     animation: bounce 0.5s infinite alternate;
+}
+
+.seta {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 247, 255);
 }
 
 @keyframes bounce {
